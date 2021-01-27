@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    background:darkolivegreen;
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding:10px;
+}
+a{
+    text-decoration:none;
+}
+header ul{
+    list-style:none;
+    display:flex;
+    padding:0;
+    margin:0;
+}
+header a{
+    color:white;
+}
+#logo{
+    margin:0 auto;
+    font-size:3vw;
+}
+#menu li{
+    padding:10px;
+}
+#social-link li{
+    padding:10px;
+}
+.project-title{
+    display:flex;
+    justify-content:center;
+    font-family: 'Times New Roman';
+    flex-wrap:wrap;
+}
+#main{
+    display:flex;
+}
+aside{
+    flex:0 0 20vw;
+    background-color:lemonchiffon;
+    padding:10px;
+}
+.services-box{
+    border:1px solid #eeeeee;
+    flex-basis:100%;
+    padding:10px;
+    max-width:370px;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px;
+}
+article{
+    padding:10px;
+}
+aside ul{
+    list-style:none;
+    padding:0;
+}
+aside img{
+    width:100%;
+}
+aside ul a{
+    color:darkolivegreen;
+    padding:10px;
+    display:block;
+    border-bottom:1px solid darkslategray;
+}
+.services-box img{
+    width:100%;
+}
+footer{
+    color:white;
+    text-align:center;
+    padding:10px 0;
+    background:darkolivegreen;
+}
+.call-to-action{
+    align-self:flex-start;
+    margin-top:auto;
+}
+.call-to-action a{
+    background:gray;
+    color:#fff;
+    border:2px solid transparent;
+    padding:8px 13px;
+    display:block;
+}
+.call-to-action a:hover{
+    background:transparent;
+    color:gray;
+    border:2px solid grey;
+}
+.services-box h3{
+    margin: 5px 0 10px;
+}
+@media  screen and (max-width:850){
+    aside{
+         flex:0 0 30vw;
+    }
+    .services-box{
+        flex-basis:48%;
+    }
+} 
+@media screen and (max-width:600px){
+    header {
+        flex-direction:column;
+    }
+    #logo{
+        order:-1;
+        font-size:8vw;
+    }
+    #main{
+        flex-direction:column;
+    }
+    article{
+        order:-1;
+    }
+    .project-title{
+        flex-direction:column;
+        align-items:center;
+    }
+    h2{
+        text-align:center;
+    }
+}
