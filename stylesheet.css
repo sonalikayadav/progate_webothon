@@ -11,7 +11,7 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
     z-index:0;
-   
+    object-fit:cover;
 }
 header{
     background:darkolivegreen;
