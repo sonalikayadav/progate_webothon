@@ -19,7 +19,8 @@ header{
     align-items: center;
     margin:0;
     padding:10px;
-    margin-top:-5;
+    position:relative;
+    bottom:10px;
 }
 a{
     text-decoration:none;
