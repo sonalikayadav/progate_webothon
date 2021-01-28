@@ -51,6 +51,7 @@ header a{
     background-repeat:no-repeat;
     background-size:cover;
     object-fit:cover;
+    margin-top:-20px;
  }
 aside{
     flex:0 0 20vw;
