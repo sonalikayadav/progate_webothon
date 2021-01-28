@@ -7,11 +7,6 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     display:flex;
     flex-direction: column;
-    background:url('b.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    z-index:0;
-    object-fit:cover;
 }
 header{
     background:darkolivegreen;
@@ -52,6 +47,11 @@ header a{
 }
 #main{
     display:flex;
+    background:url('b.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index:0;
+    object-fit:cover;
 }
 aside{
     flex:0 0 20vw;
