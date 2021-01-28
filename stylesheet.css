@@ -49,8 +49,9 @@ header a{
     display:flex;
     background:url('b.jpg');
     background-repeat:no-repeat;
- 
-}
+    background-size:cover;
+    object-fit:cover;
+ }
 aside{
     flex:0 0 20vw;
     background-color:lemonchiffon;
