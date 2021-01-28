@@ -7,6 +7,10 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     display:flex;
     flex-direction: column;
+     background:url('b.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    object-fit:cover;
 }
 header{
     background:darkolivegreen;
@@ -14,6 +18,7 @@ header{
     align-items: center;
     margin:0;
     padding:10px;
+    z-index:10;
 }
 a{
     text-decoration:none;
@@ -45,11 +50,6 @@ header a{
 }
 #main{
     display:flex;
-    background:url('b.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    object-fit:cover;
-    margin-top:-20px;
  }
 aside{
     flex:0 0 20vw;
